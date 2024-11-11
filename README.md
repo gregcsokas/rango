@@ -1,2 +1,4 @@
-# rango
-Django like webframework for rust
+# Rango
+A webframework written in rust.
+
+
