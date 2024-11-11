@@ -1,0 +1,20 @@
+[package]
+name = "rango"
+version = "0.0.1-dev"
+edition = "2021"
+categories = ["web-programming", ]
+description = "A webframework written in Rust"
+keywords = ["web", "framework"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/gregcsokas/rango"
+rust-version = "1.80.0"
+
+[workspace]
+members = [
+    "crates/*",
+    ]
+
+[dependencies]
+tokio = { version = "1.41.1", features = ["full"] }
+bytes = "1.8.0"
+httparse = "1.9.5"
